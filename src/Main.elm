@@ -1,16 +1,12 @@
 module Main exposing (..)
 
 import Browser
-import Html exposing (Html, ul, div, text, input)
-import Html.Attributes exposing (type_)
-import List exposing (filter, map)
+import Html exposing (Html)
 
 import Model exposing (Model)
-import Message exposing (Msg)
+import Message exposing (..)
 import Update exposing (..)
-import Component.TaskComponent exposing (taskComponent)
-import Html.Events exposing (onClick)
-import Message exposing (Msg(..))
+import Pages.HomePage exposing (homePage)
 
 
 init : ( Model, Cmd Msg )
@@ -27,16 +23,9 @@ init =
   }, Cmd.none )
 
 view : Model -> Html Msg
-view model =
-  div [] [
-    text "Show completed"
-    , input [ type_ "checkbox", onClick ToggleShowCompleted ] []
-    ,ul [] <|
-      map taskComponent (filter (\t -> t.completed == model.showCompleted) model.tasks)
-  ]
+view model = homePage model
+  
 
-
----- PROGRAM ----
 main : Program () Model Msg
 main =
   Browser.element

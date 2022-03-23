@@ -15,4 +15,4 @@ taskComponent task =
             h1 [] [ text task.title ]
             , p [] [ text (if task.completed then "Completed" else "To Do") ]
         ]
-     ]
+    ]
