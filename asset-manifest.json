@@ -1,15 +1,15 @@
 {
-  "main.css": "./elm-todo/static/css/main.5c14bf26.chunk.css",
-  "main.js": "./elm-todo/static/js/main.7c46b404.chunk.js",
-  "main.js.map": "./elm-todo/static/js/main.7c46b404.chunk.js.map",
-  "runtime~main.js": "./elm-todo/static/js/runtime~main.e9ff2f43.js",
-  "runtime~main.js.map": "./elm-todo/static/js/runtime~main.e9ff2f43.js.map",
-  "vendors~main.js": "./elm-todo/static/js/vendors~main.354e092f.chunk.js",
-  "vendors~main.js.map": "./elm-todo/static/js/vendors~main.354e092f.chunk.js.map",
-  "./service-worker.js": "./elm-todo/./service-worker.js",
-  "favicon.ico": "./elm-todo/favicon.ico",
-  "index.html": "./elm-todo/index.html",
-  "logo.svg": "./elm-todo/logo.svg",
-  "manifest.json": "./elm-todo/manifest.json",
-  "precache-manifest.069bc1b8b104bf688f2f59abb6c07cb6.js": "./elm-todo/precache-manifest.069bc1b8b104bf688f2f59abb6c07cb6.js"
+  "main.css": "./static/css/main.5c14bf26.chunk.css",
+  "main.js": "./static/js/main.4a1b42b3.chunk.js",
+  "main.js.map": "./static/js/main.4a1b42b3.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.d5752d2f.js",
+  "runtime~main.js.map": "./static/js/runtime~main.d5752d2f.js.map",
+  "vendors~main.js": "./static/js/vendors~main.354e092f.chunk.js",
+  "vendors~main.js.map": "./static/js/vendors~main.354e092f.chunk.js.map",
+  "./service-worker.js": "././service-worker.js",
+  "favicon.ico": "./favicon.ico",
+  "index.html": "./index.html",
+  "logo.svg": "./logo.svg",
+  "manifest.json": "./manifest.json",
+  "precache-manifest.11896c03c99ccefeaa0cd38417144809.js": "./precache-manifest.11896c03c99ccefeaa0cd38417144809.js"
 }
