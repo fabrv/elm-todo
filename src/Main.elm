@@ -12,19 +12,13 @@ import Pages.HomePage exposing (homePage)
 init : ( Model, Cmd Msg )
 init =
   ( {
-    tasks = [{
-      title = "Title"
-      , completed = True
-    }, {
-      title = "Not completed"
-      , completed = False
-    }]
+    tasks = []
     , showCompleted = False
+    , todoInput = ""
   }, Cmd.none )
 
 view : Model -> Html Msg
 view model = homePage model
-  
 
 main : Program () Model Msg
 main =

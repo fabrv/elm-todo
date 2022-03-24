@@ -10,17 +10,68 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
-  margin: 0;
-  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: auto;
+  padding-top: 15px;
   color: #293c4b;
 }
 
-h1 {
-  font-size: 30px;
+.task-list, .add-task, .homePage {
+  margin: auto;
+  max-width: 450px;
+  padding: 0;
 }
 
-img {
-  margin: 20px 0;
-  max-width: 200px;
+.homePage {
+  text-align: center;
+}
+
+.task {
+  list-style: none;
+  padding: 15px;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.task div h1 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #CCE2A3;
+  cursor: pointer;
+  color: rgba(0,0,0,0.8);
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem;
+  transition: background-color 0.1s;
+}
+
+.secondary {
+  background-color: #654F6F;
+  color: white;
+}
+
+.secondary:hover, .secondary:active {
+  background-color: #403147;
+}
+
+button:hover, button:active {
+  background-color: #A8C69F;
+}
+
+input {
+  border-radius: 4px;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 0.5rem;
+  transition: box-shadow 0.2s;
+}
+
+input:focus, input:active {
+  outline: none;
+  box-shadow: 0 0 0 2px #CCE2A3;
 }
